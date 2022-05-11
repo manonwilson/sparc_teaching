@@ -1,4 +1,7 @@
 # SPARC Teaching Resources
+
+These teaching resources have been created to encourage the reuse of digital archaeological data archived by [SPARC](https://sparc.cast.uark.edu/), in accordance with the ['Reusability' FAIR principle](https://www.go-fair.org/fair-principles/).
+
 ### Licensing
 These teaching materials are made available under a [Creative Commons CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 
@@ -37,7 +40,7 @@ This repository contains teaching materials designed to introduce university lev
 To cite these teaching materials, please use the following reference: Kasten, M. (2021) An Introduction to Digital Archaeological Reconstructions: A SPARC Teaching Resource. https://github.com/ropitz/sparc_teaching.
 
 ## Table of Contents
-### [Introduction](/Malthi_1Intended%20Learning%20Outcomes%20and%20Background.md)
+### [Introduction](/IntroILO.md)
 ### Exercise 1
 [Part A: Preparation](/Malthi_Exercise1.md)
 
@@ -70,3 +73,6 @@ To cite these teaching materials, please use the following reference: Kasten, M.
 
 ### [Quick Troubleshooting](/Malthi_QuickTroubleshooting.md)
 
+### [All Resources](/allresources.md)
+
+### [Think and Respond Worksheet: All 'Think and Respond' and 'Try it yourself!' tasks](/thinkandrespondworksheet.md)

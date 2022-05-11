@@ -1,4 +1,4 @@
-## **Exercise 1**
+## Exercise 1
 ### **Part B: Get to know your data - start by reading the metadata and reports**
 With any sort of dataset, we need to assess the quality of the data. There are a number of considerations to take into account when assessing the 3D datasets you have at your disposal. The first step is to obtain any reports or metadata concerning the dataset. **Metadata** is information that describes other data – this may describe something as simple as the file format in which the data is saved, what equipment was used to record the data, or what other files are associated with the data. Understanding your data is essential as there are several characteristics that will dictate which software packages will be most useful in managing and processing the dataset for use.
 
@@ -20,7 +20,11 @@ With any sort of dataset, we need to assess the quality of the data. There are a
   - and the type of data these files contain (point cloud). A point cloud is composed of calculated points in three-dimensional space, produced when a digital imaging technique measures and records the surface of an object; each point is defined by a set of coordinates on the X, Y and Z planes. 
 
 >**Think and Respond**: Summarise what you now know about the dataset after reading the metadata report. What are some of the challenges you can see in working with this dataset?  Take note of what you think is most important and add it to your Design Document under the Resources: Available section.
+
 ### **Get to know your data – open and visually review samples**
+
+[A step-by-step guide from this point onward in Exercise 1 can be found here.](https://youtu.be/RYlTGRx3hbE)
+
 Now that we know what type of data and what format the files are saved in, we need to identify how much of the site is represented in the record. First, we need to open the dataset in software well-suited to dealing with point clouds in the .las or .laz format. There are a number of paid software packages that will work with these files (Leica Cyclone, Autodesk ReCap, Esri ArcGIS), but there are a number of free and reliable open source software packages available. In this case, download and install the relevant version of [CloudCompare](https://www.danielgm.net/cc/). 
 
 - Next, download the Profile slices from the relevant Zenodo entry from the SPARC archive here: <https://doi.org/10.5281/zenodo.3833880>. 
@@ -29,14 +33,14 @@ Now that we know what type of data and what format the files are saved in, we ne
 - In CloudCompare, navigate to ‘File > Open >’ And choose your first profile slice.
 - This will prompt a pop up dialog box, where it will ask you which information fields it should look for in the file and let you know how many points are in the file (under info). Leave the default settings as they are and hit ‘Apply’.
 
-![Screencapture of the CloudCompare dialog box as it appears after importing a .las file.](https://github.com/ropitz/sparc_teaching/blob/master/Malthi%20Images%201/Exercise%201%20Images/Ex1Fig02.png)
+![Screencapture of the CloudCompare dialog box as it appears after importing a .las file.](https://github.com/ropitz/sparc_teaching/blob/master/Malthi%20Images%201/Exercise%201%20Images/Ex1Fig02.png?raw=true)
 
 - This will prompt a new dialog box to appear. The software wants to shift the dataset to the local coordinate system (closer to 0, 0, 0) because the data’s current coordinates correspond to the site’s global position using UTM (Universal Transverse Mercator) coordinates, which indicate the site’s distance from the equator and the prime meridian in metres. These coordinates are quite large and, while this is common practice in software designed to work with the geospatial sector, like ArcGIS, most 3D modelling software is not designed to work with such large numbers. If we keep the original coordinates, some 3D modelling software will place the dataset 4 million units away from the **origin**; in other software, like MeshLab or Blender, keeping the UTM coordinates can also cause graphical glitches. Because we will not be using this data in geospatial software, we need to make sure that the UTM coordinates are **not preserved**. 
   - **Ensure that the box that says ‘Preserve Global shift on Save’ is unchecked.** 
   - **Take note of the numbers used in the proposed shift for your records to ensure that the same translation is applied to the other profile slices in the future.** Otherwise these will be misaligned in later steps.
   - Allow CloudCompare to translate the dataset to local coordinates with the recommended settings. 
 
-![The second dialog box that appears to translate the point cloud from a global coordinate system to a local coordinate system. A red rectangle highlights that the 'Preserve Global shift on Save' box should be unchecked.](https://github.com/ropitz/sparc_teaching/blob/master/Malthi%20Images%201/Exercise%201%20Images/Ex1Fig03.png)
+![The second dialog box that appears to translate the point cloud from a global coordinate system to a local coordinate system. A red rectangle highlights that the 'Preserve Global shift on Save' box should be unchecked.](https://github.com/ropitz/sparc_teaching/blob/master/Malthi%20Images%201/Exercise%201%20Images/Ex1Fig03.png?raw=true)
 
 - After some time processing, a cloud of white points should appear. To better define the features in the visualisation, there are a couple of options.
   - You can apply shaders – navigate to Display> Shaders & Filters> and select EDL.

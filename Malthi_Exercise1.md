@@ -1,4 +1,5 @@
-## **Exercise 1**
+## Exercise 1
+*Allow at least 2 1/2 hours for all of Exercise 1, dependant on available hardware*
 ### **Part A: Introduction**
 
 The aim of this teaching resource is to introduce you to the technical basics and the theoretical issues underlying the process of creating digital reconstructions of archaeological sites. As will become apparent throughout the module, certain elements of the actual workflow are very project-specific and contingent on the needs of the project. To frame your thinking and the decisions you make in the following exercises, we have provided an example ‘Project Brief’ below.
@@ -75,7 +76,7 @@ In the case of Malthi, the layout of the standing remains is complex, so buildin
 
 >**Think and Respond**: Take a look at the ‘Decision Tree’ below – can you think of any other instances in which you should use the laser scan data rather than building the 3D reconstruction from other resources?
 
-![Diagram suggesting a line of questioning that will allow students to determine whether they need to use reality captured 3D data in their reconstruction.](https://github.com/ropitz/sparc_teaching/blob/master/Malthi%20Images%201/Exercise%201%20Images/Ex1Fig01.png)
+![Diagram suggesting a line of questioning that will allow students to determine whether they need to use reality captured 3D data in their reconstruction.](https://github.com/ropitz/sparc_teaching/blob/master/Malthi%20Images%201/Exercise%201%20Images/Ex1Fig01.png?raw=true)
 
 
 [Back to the Introduction](/Malthi_1Intended%20Learning%20Outcomes%20and%20Background.md) | [Continue To Exercise 1 Part B](/Malthi_Exercise1_B.md)

@@ -1,4 +1,8 @@
-﻿## Exercise 2: Planning the next steps for Reconstructed Assets
+﻿## Exercise 2 
+ 
+ *Allow at least 1 hour for Exercise 2.*
+ 
+### Planning the next steps for Reconstructed Assets
 In the first exercise, you prepared your ‘reality captured’ assets to integrate into your reconstruction. In the next steps of planning, you will need to decide how to design features that are not well preserved in the archaeological record, choose the tools you will use to design and build ‘reconstructed’ assets, and maintain a record of your modelling decisions as you make these for later archiving.
 
 **Design Decisions and Tools**
@@ -50,14 +54,18 @@ On the towers, there really isn't much visible of the fortification wall today, 
 
 **Dr Worsham:** There isn't much ground cover on the site, but it seems like they liked making use of the bedrock for quarries and building surfaces. There are enough fairly clear pathways that at least it seems in some areas to be fairly close to the original ground level. But it's also fairly clear that some material eroded down the hill and built up against the fortification wall. Valmin also removed a fair amount of soil (though he also seems to have backfilled some areas), but his sections look deeper than what we found. So there may be more soil in the laser scan than the original ground level, but it's probably still fairly close.
 
+![A preview of the Malthi Revisited Project's initial reconstruction of Malthi to show the effect of their design decisions.](https://github.com/ropitz/sparc_teaching/blob/4fc139a2edf8cceed8f103d2afe0aae1afaf16e5/Malthi%20Images%201/Exercise%202/Reconstruction-of-Malthi-in-LH-I-snip.jpg?raw=true)
+
 ### **MoSCoW Method**
 Let’s now consider briefly what type of interactions we could incorporate into the reconstruction, as this is important to think about the possibilities during this stage, though these will be considered more extensively in Exercise 5 when discussing the platforms through which the final output could be made available. The simplest interactions you may want to incorporate would be allowing users to ‘walk through’ the site, either by teleporting to predetermined hotspots or by allowing the user to ‘walk’ as one would in most video games. You could create localised annotations that users can click on to receive more information about a feature. More complicated interactions might involve allowing a user to ‘pick up’ an object and observe it more closely. You may even wish to enable VR or AR application use of the reconstruction. 
 
 When considering the different possibilities for your reconstruction, whether creating ‘assets’ or possibilities for ‘interaction’, it is often useful to create a ‘wish list’ of sorts for the assets or functionality to be incorporated into the final reconstruction. You can then apply the MoSCoW method, the invention of which often attributed to Dai Clegg and Richard Barker (1994) to guide software development, which helps to prioritise features according to how essential they are to meet the project aims. The list can be classified into ‘Must haves’, ‘Should haves’, ‘Could haves’, and ‘Won’t haves’. Not only will this help you, as the reconstruction artist, prioritise what tasks should be completed first for time management purposes, but it will also manage the expectations of the rest of the team. If the team decides that reconstructions of artefacts are only ‘Could haves’, no one will be surprised that reconstructed pottery does not make an appearance in a reconstruction designed to understand how one might have navigated the site. Walls scaled to appear at least 2 metres in height in the reconstruction, however, would likely be considered a ’Must have’ so that one could understand how the presence of buildings affected visibility in certain parts of Bronze Age Malthi.
 
+![A diagram of the MoSCoW method](https://github.com/ropitz/sparc_teaching/blob/4fc139a2edf8cceed8f103d2afe0aae1afaf16e5/Malthi%20Images%201/Exercise%202/MoSCoW%20method.PNG?raw=true)
+
 >**Try it yourself!** Create a list of potential features and interactions you could include in a reconstruction of Malthi. Assign each of these according to the MoSCoW method – think about how you decided which features were ‘must haves’ rather than ‘should haves’. Which factors could change how you’ve classified these? If more time was available for the project? Add these to your Design Document, which you started in Exercise 1.
->
->As you make these design decisions, it is important to keep track of your reasoning behind making these decisions. While paradata will be discussed again in the additional archive materials, in general most will agree that in your paradata you should include 1) the sources, references, and data utilised in the reconstruction, 2) a summary of the changes made to ‘real’ datasets captured via 3D recording methods (if incorporated), and 3) a summary of the choices/justifications/assumptions made in representing uncertain elements of the reconstruction.
+
+As you make these design decisions, it is important to keep track of your reasoning behind making these decisions. While paradata will be discussed again in the additional archive materials, in general most will agree that in your paradata you should include 1) the sources, references, and data utilised in the reconstruction, 2) a summary of the changes made to ‘real’ datasets captured via 3D recording methods (if incorporated), and 3) a summary of the choices/justifications/assumptions made in representing uncertain elements of the reconstruction.
 
 One of the most common ways to ensure a good level of paradata is recorded is to keep some sort of diary, much like the blog produced by Kastanis (2019). This should include:
 
